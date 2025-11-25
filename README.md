@@ -49,55 +49,43 @@ and ground. This voltage is the duplication of the transmitted electrical signal
 
 ## PROCEDURE
 
-▪ Refer to the block diagram & carry out the following connections and settings.
+1. 	Refer to the block diagram & carry out the following connections and settings.
+	Connect the power supply with proper polarity to the kit link-B and switch it on.
+	Keep all Switch Faults in OFF position.
+	Keep switch SW8 towards TX position.
+	Keep switch SW9 towards TX1 position.
+	Keep Jumper JP5 towards +12V position.
+	Keep Jumpers JP6, JP9, JP10 shorted.
+	Keep Jumper JP8 towards sine position.
+	Keep Intensity control pot P2 towards minimum position.
+	Feed about 2Vpp sinusoidal signal of 1 KHz from the function generator to the IN post of Analog Buffer.
 
-▪ Connect the power supply with proper polarity to the kit link-B and switch it on.
+<img width="476" height="192" alt="image" src="https://github.com/user-attachments/assets/523ed762-09f9-42e7-831b-3476afe4a961" />
 
-▪ Keep all Switch Faults in OFF position.
+ 
+	Connect the output post OUT of Analog Buffer to the post TX IN of Transmitter.
+	Slightly unscrew the cap of SFH756V (660nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
+	Connect the other end of the Fiber to detector SFH350V (Photo Transistor Detector) very carefully.
+	Observe the detected signal at post ANALOG OUT on oscilloscope. Adjust Intensity control pot P2 Optical Power control potentiometer so that you receive signal of 2Vpp amplitude.
 
-▪ Keep switch SW8 towards TX position.
+<img width="459" height="189" alt="image" src="https://github.com/user-attachments/assets/58d57898-d00e-4547-9cec-0129daf5c6f0" />
 
-▪ Keep switch SW9 towards TX1 position.
 
-▪ Keep Jumper JP5 towards +12V position.
+	To measure the analog bandwidths of the phototransistor vary the input signal frequency and observe the detected signal at various frequencies.
+	Plot the detected signal against applied signal frequency and from the plot determine the 3dB down frequency.
+	Keep switch SW9 towards TX2 position.
+	Keep Jumper JP7 towards +12V position.
+	Remove fiber cable from SFH756V (660nm) and slightly unscrew the cap of SFH450V (950nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
+	Observe the detected signal at post ANALOG OUT on oscilloscope.
 
-▪ Keep Jumpers JP6, JP9, JP10 shorted.
+<img width="446" height="183" alt="image" src="https://github.com/user-attachments/assets/8b99486f-3da5-40fe-80b5-b82b40edb00d" />
 
-▪ Keep Jumper JP8 towards sine position.
 
-▪ Keep Intensity control pot P2 towards minimum position.
 
-▪ Feed about 2Vpp sinusoidal signal of 1 KHz from the function generator to the IN post of Analog 
-Buffer.
-
-▪ Connect the output post OUT of Analog Buffer to the post TX IN of Transmitter.
-
-▪ Slightly unscrew the cap of SFH756V (660nm). Do not remove the cap from the connector.
-Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by 
-screwing it back.
-
-▪ Connect the other end of the Fiber to detector SFH350V (Photo Transistor Detector) very 
-carefully.
-
-▪ Observe the detected signal at post ANALOG OUT on oscilloscope. Adjust Intensity control pot
-P2 Optical Power control potentiometer so that you receive signal of 2Vpp amplitude.
-
-▪ To measure the analog bandwidths of the phototransistor vary the input signal frequency and
-observe the detected signal at various frequencies.
-
-▪ Plot the detected signal against applied signal frequency and from the plot determine the 3dB 
-down frequency.
-
-▪ Keep switch SW9 towards TX2 position.
-
-▪ Keep Jumper JP7 towards +12V position.
-
-▪ Remove fiber cable from SFH756V (660nm) and slightly unscrew the cap of SFH450V 
-(950nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one 
-meter fiber into the cap. Now tighten the cap by screwing it back.
-
-▪ Observe the detected signal at post ANALOG OUT on oscilloscope
 ---
+
+
+
 
 ## BLOCK DIAGRAM
 
